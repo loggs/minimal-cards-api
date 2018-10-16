@@ -9,7 +9,7 @@ defmodule MinimalCardsApi.Application do
     # List all child processes to be supervised
     children = [
       # Start the Ecto repository
-      MinimalCardsApi.Repo,
+      # MinimalCardsApi.Repo,
       # Start the endpoint when the application starts
       MinimalCardsApiWeb.Endpoint
       # Starts a worker by calling: MinimalCardsApi.Worker.start_link(arg)
