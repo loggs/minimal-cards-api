@@ -42,4 +42,4 @@ npm-debug.log
 /config/*.secret.exs
 
 # Ignore React code
-/react
+react/
