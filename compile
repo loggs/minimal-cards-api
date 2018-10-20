@@ -5,4 +5,4 @@ mkdir react && git clone https://github.com/loggs/minimal-cards.git react/minima
 npm install  && npm run-script deploy
 
 # Digest statics
-MIX_ENV=prod mix phx.digest
+cd .. && MIX_ENV=prod mix phx.digest
