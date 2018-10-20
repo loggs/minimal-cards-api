@@ -1,8 +1,8 @@
 # Download the code
-mkdir -p assets/react/ && git clone https://github.com/loggs/minimal-cards.git assets/react/minimal-cards
+mkdir react && git clone https://github.com/loggs/minimal-cards.git react/minimal-cards
 
 # Build the statics
-npm --prefix ./assets install ./assets && npm --prefix ./assets run-script deploy
+npm install  && npm run-script deploy
 
 # Digest statics
 MIX_ENV=prod mix phx.digest
