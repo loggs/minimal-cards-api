@@ -1,0 +1,8 @@
+# Download the code
+mkdir -p assets/react/ && git clone https://github.com/loggs/minimal-cards.git assets/react
+
+# Build the statics
+npm --prefix ./assets install ./assets && npm run-script deploy
+
+# Digest statics
+mix phx.digest
