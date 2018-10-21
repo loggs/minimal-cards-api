@@ -20,7 +20,9 @@ defmodule MinimalCardsApiWeb.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", MinimalCardsApiWeb do
-  #   pipe_through :api
-  # end
+  scope "/api", MinimalCardsApiWeb do
+    pipe_through :api
+
+    get "/cards", PageController, :cards
+  end
 end
