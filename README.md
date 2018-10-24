@@ -1,5 +1,7 @@
 # MinimalCardsApi
 
+See the application live [here](https://young-journey-23593.herokuapp.com/)
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
