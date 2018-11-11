@@ -16,6 +16,7 @@
     "phoenix_html": "file:../deps/phoenix_html",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-motion": "^0.5.2",
     "react-redux": "^5.0.7",
     "react-scroll": "^1.7.10",
     "redux": "^4.0.1",
